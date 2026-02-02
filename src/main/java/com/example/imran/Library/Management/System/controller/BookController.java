@@ -4,7 +4,7 @@ import com.example.imran.Library.Management.System.dto.BookDto;
 import com.example.imran.Library.Management.System.entity.Book;
 import com.example.imran.Library.Management.System.service.BookService;
 import com.example.imran.Library.Management.System.util.ApiResponse;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

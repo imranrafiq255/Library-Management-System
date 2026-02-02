@@ -38,4 +38,10 @@ public class BorrowedBookServiceImpl implements BorrowedBookService {
     public List<BorrowedBook> viewIssuedBooks() {
         return borrowedBookRepository.findAll();
     }
+
+    @Override
+    public List<BorrowedBook> viewAllIssuedBooksOfMember(Long memberId) {
+        Member member = memberRepository.findById(memberId).orElseThrow(() -> new ResourceNotFoundException("Member id is invalid"));
+        return borrowedBookRepository.findAllByMemberAndBookStatus(member, BookStatus.ISSUED);
+    }
 }

@@ -4,7 +4,7 @@ import com.example.imran.Library.Management.System.dto.MemberDto;
 import com.example.imran.Library.Management.System.entity.Member;
 import com.example.imran.Library.Management.System.service.MemberService;
 import com.example.imran.Library.Management.System.util.ApiResponse;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

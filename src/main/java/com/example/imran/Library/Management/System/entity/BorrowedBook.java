@@ -2,7 +2,7 @@ package com.example.imran.Library.Management.System.entity;
 
 import com.example.imran.Library.Management.System.enums.BookStatus;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

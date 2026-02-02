@@ -1,8 +1,8 @@
 package com.example.imran.Library.Management.System.dto;
 
 import com.example.imran.Library.Management.System.enums.BookStatus;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import lombok.*;
 
 import java.time.LocalDate;

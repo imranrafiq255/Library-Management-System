@@ -10,4 +10,5 @@ import java.util.List;
 public interface BorrowedBookService {
     void issueBook(BorrowedBookDto borrowedBookDto);
     List<BorrowedBook> viewIssuedBooks();
-}
+    List<BorrowedBook> viewAllIssuedBooksOfMember(Long memberId);
+ }

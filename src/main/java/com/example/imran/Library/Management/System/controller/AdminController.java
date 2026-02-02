@@ -2,7 +2,7 @@ package com.example.imran.Library.Management.System.controller;
 
 import com.example.imran.Library.Management.System.dto.AdminDto;
 import com.example.imran.Library.Management.System.service.AdminService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
